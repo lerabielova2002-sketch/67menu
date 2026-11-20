@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-
+import { Deserts } from './pages/deserts'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+    <Deserts />
     </>
   )
 }
